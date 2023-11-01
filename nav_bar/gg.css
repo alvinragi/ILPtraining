@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.top-nav {
+  overflow: hidden;
+  background-color: #ffff;
+}
+.header {
+  background: white;
+  display: flex;
+}
+.logo {
+  padding: 25px;
+  padding-bottom: 15px;
+}
+.top-nav a {
+  margin-top: 40px;
+  float: left;
+  text-align: end;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+  color: red;
+  background-color: aliceblue;
+}
+
+.top-nav a.active {
+  color: red;
+}
