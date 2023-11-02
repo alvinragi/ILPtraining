@@ -1,4 +1,3 @@
-
 #middle-image {
   height: 500px;
   width: 1100px;
@@ -26,7 +25,7 @@
 .middle {
   display: flex;
 }
-.middle-button {
+.middle-BookAppointmentButton {
   background-color: rgb(82, 177, 138);
   color: white;
   font-size: medium;
@@ -36,8 +35,8 @@
   cursor: pointer;
 }
 
-.small {
-  background-color: rgb(82, 177, 138);  
+.book-appointmentButton {
+  background-color: rgb(82, 177, 138);
   color: white;
   font-size: medium;
   border: green;
@@ -68,9 +67,8 @@ input[type="date"] {
   display: flex;
   padding-left: 20px;
   justify-content: space-between;
-  
 }
-.appointment-info h3{
+.appointment-info h3 {
   padding-left: 20px;
 }
 .appointment-row2 {
@@ -98,105 +96,93 @@ input[type="date"] {
   margin-left: 1px;
 }
 
-
-
-
-.our-departments{
+.our-departments {
   margin-top: 150px;
   margin-left: 65px;
 }
-.ourdeptText{
+.ourdeptText {
   font-size: 35px;
 }
-.our-departments-images{
+.our-departments-images {
   display: flex;
 }
-.our-departments-png{
+.our-departments-png {
   width: 360px;
   height: 200px;
 }
 
-.our-departments-pngclass{
+.our-departments-pngclass {
   width: 360px;
   height: 200px;
   margin-right: 20px;
 }
 
-a{
+a {
   color: rgb(82, 177, 138);
 }
 
-
-
-
-
-
-.why-gg{
+.why-gg {
   display: flex;
   margin-top: 300px;
   background-color: aliceblue;
   width: 1150px;
   margin-left: 50px;
 }
-.whyGG-imgBlock{
+.whyGG-imgBlock {
   flex: 1;
   margin-left: 50px;
-  
 }
-.whyGG-img{
+.whyGG-img {
   height: 400px;
   width: 570px;
   margin-left: 50px;
   margin-top: 50px;
 }
-.whyGG-textBlock{
+.whyGG-textBlock {
   margin-left: 60px;
   margin-top: 70px;
   flex: 1;
 }
 
-.whyGG-textBlock p{
-  line-height:2;
+.whyGG-textBlock p {
+  line-height: 2;
 }
 
-.whyGG-textBlock img{
+.whyGG-textBlock img {
   height: 14px;
 }
 
 /* Meet our specialists */
 
-.our-Specialist{
+.our-Specialist {
   margin-top: 150px;
 }
-.our-Specialist p{
+.our-Specialist p {
   color: #ccc;
   font-size: 15px;
-
 }
-.our-SpecialistText{
+.our-SpecialistText {
   margin-left: 530px;
 }
 
-
-.our-SpecialistPictures{
+.our-SpecialistPictures {
   display: flex;
   margin-left: 40px;
 }
-.our-Specialist-PictureClass{
+.our-Specialist-PictureClass {
   width: 270px;
   margin-left: 20px;
   text-align: center;
 }
-.our-Specialist-png{
+.our-Specialist-png {
   width: 270px;
-
 }
-.view-all-button{
+.view-all-button {
   margin-left: 550px;
   margin-top: 10px;
 }
-.button3{
-  background-color: rgb(82, 177, 138);  
+.button3 {
+  background-color: rgb(82, 177, 138);
   color: white;
   font-size: small;
   border: green;
@@ -205,44 +191,43 @@ a{
   width: 110px;
   height: 35px;
   margin-top: 4px;
-  
 }
 /* Facilities and activities */
-.facilities-activities{
+.facilities-activities {
   text-align: center;
   margin-top: 150px;
 }
-.facilities-imageClass{
+.facilities-imageClass {
   display: flex;
   margin-left: 60px;
 }
-.facilities-img{
+.facilities-img {
   width: 350px;
   margin-right: 20px;
 }
 
 /* maybe-interested-div */
-.maybe-interested-div{
+.maybe-interested-div {
   margin-top: 170px;
 }
-.maybe-interested-div h2{
+.maybe-interested-div h2 {
   text-align: center;
 }
-.interested-imageClass{
+.interested-imageClass {
   display: flex;
   margin-left: 60px;
   position: absolute;
 }
-.interested-img{
+.interested-img {
   width: 350px;
   margin-right: 20px;
 }
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
 /* Subscribe */
-.white{
+.bottom-white-background {
   position: absolute;
   width: 1150px;
   height: 150px;
@@ -253,24 +238,24 @@ a{
   align-items: center;
   border-radius: 2px;
 }
-.boxx{
- display: flex;
- width: 100%;
- justify-content: space-between;
+.newsletter-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   margin-top: 40px;
 }
-#texxt{
+#texxt {
   border: 0px;
   width: 300px;
 }
-.box-text{
+.newsletter-box-text {
   margin-left: 80px;
 }
-.text-button{
+.newsletter-textAndButtonClass {
   margin-right: 80px;
 }
-.button4{
-  background-color: rgb(82, 177, 138);  
+.Subscribe-button {
+  background-color: rgb(82, 177, 138);
   color: white;
   font-size: small;
   border: green;
@@ -281,111 +266,103 @@ a{
   margin-top: 4px;
 }
 
-.white img{
+.bottom-white-background img {
   position: absolute;
   height: 140px;
   width: 600px;
   bottom: 10px;
- 
 }
-.bottom-back{
-  background-color: #EAF2FF;
+.bottom-back {
+  background-color: #eaf2ff;
   height: 550px;
   margin-top: 120px;
 }
+
 /* footer */
-#footer{
+#footer {
   margin-top: 200px;
   width: 100%;
   height: 50vh;
-  background: #F9FAFA;
-
+  background: #f9fafa;
 }
-#footer-top-1{
+#footer-top-part1 {
   display: flex;
   height: 12vh;
   justify-content: space-between;
   align-items: end;
-  /* padding:90px 0px 0px 0px ; */
 }
-#footer-logo{
+#footer-logo {
   width: 200px;
 }
-#footer-logo-txt{
+#footer-logo-txt {
   width: fit-content;
   height: fit-content;
   margin-bottom: 3px;
   margin-left: 80px;
- 
 }
-#footer-top-text{
+#footer-top-text {
   font-size: 13px;
 }
-#footer-aboutgg{
+#footer-aboutgg {
   /* display: flex; */
   width: fit-content;
   margin-left: 250px;
   margin-bottom: 2px;
-
 }
-.footer-write-t-list{
+.footer-writing-text-list {
   display: flex;
 }
-.footer-write-t{
+.footer-write-t {
   padding-left: 15px;
 }
-.footer-write-txt{
+.footer-writings-txt {
   font-size: 13px;
   padding: 15px;
   line-height: 20px;
 }
-#footer-lagal{width:300px;
+#footer-legal {
+  width: 300px;
   width: fit-content;
   margin-right: 80px;
   margin-bottom: 2px;
 }
 
-
-
-
-#footer-bottom-1{
+#footer-bottom-1 {
   display: flex;
   justify-content: space-between;
 }
-#footer-address{
+#footer-address {
   display: flex;
   align-items: top;
   justify-content: center;
   margin-left: 70px;
- 
 }
-#footer-phone{
+#footer-phone {
   display: flex;
   align-items: top;
   justify-content: center;
-  /* margin-top: 7px; */
 }
-#footer-media{
+#footer-media {
   margin-right: 145px;
   margin-top: 15px;
 }
-#footer-mail{
+#footer-mail {
   display: flex;
   align-items: top;
   justify-content: center;
   margin-left: 50px;
 }
-#br-footer{
+#br-footer {
   line-height: 2px;
 }
-#media-icons{
+#media-icons {
   margin-top: 10px;
 }
-.footer-small-images{
- width: 13px;
- margin-top: 14px;
- margin-right: 5px;
+.footer-small-images {
+  width: 13px;
+  margin-top: 14px;
+  margin-right: 5px;
 }
-.footer-write-txt-content{
-  padding:15px !important;
+.footer-write-txt-content {
+  padding: 15px !important;
 }
