@@ -12,6 +12,7 @@
   left: 150px;
   color: black;
   position: absolute;
+  font-family:Arial, Helvetica, sans-serif;
 }
 #text1 {
   font-size: 64px;
@@ -101,7 +102,8 @@ input[type="date"] {
   margin-left: 65px;
 }
 .ourdeptText {
-  font-size: 35px;
+  font-size: 33px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .our-departments-images {
   display: flex;
@@ -142,6 +144,7 @@ a {
   margin-left: 60px;
   margin-top: 70px;
   flex: 1;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .whyGG-textBlock p {
@@ -163,6 +166,7 @@ a {
 }
 .our-SpecialistText {
   margin-left: 530px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .our-SpecialistPictures {
@@ -200,11 +204,16 @@ a {
 .facilities-imageClass {
   display: flex;
   margin-left: 60px;
+  margin-top: 40px;
 }
 .facilities-img {
   width: 350px;
   margin-right: 20px;
 }
+.facilities-activities h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /* maybe-interested-div */
 .maybe-interested-div {
@@ -212,10 +221,12 @@ a {
 }
 .maybe-interested-div h2 {
   text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .interested-imageClass {
   display: flex;
   margin-left: 60px;
+  margin-top: 30px;
   position: absolute;
 }
 .interested-img {
